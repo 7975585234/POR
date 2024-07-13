@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chandana Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .title {
+      color: blueviolet;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    body {
+      background-color: rgb(32, 230, 220);
+      color: aliceblue;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100px;
+      background-color: rgb(251 226 78);
+      padding: 0 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      background-color: rgb(180, 48, 169);
+      padding: 0 10px;
+    }
+
+    nav ul li {
+      margin: 0 10px;
+      text-align: center;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: fuchsia;
+    }
+
+    main hr {
+      border: 0;
+      background: #9c97f1;
+      height: 1.2px;
+      margin: 40px 84px;
+    }
+
+    .left {
+      font-size: 2rem;
+    }
+
+    .firstSection {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 50px 0;
+    }
+
+    .leftSection {
+      width: 40%;
+      font-size: 1rem;
+      font-family: 'Times New Roman', Times, serif;
+      margin: 30px 0;
+    }
+
+    .leftSection .btn {
+      width: 40%;
+      font-size: 1rem;
+      font-family: 'Times New Roman', Times, serif;
+      margin: 30px 0;
+      background-color:  rgb(32, 230, 220);
+      
+    }
+    .rightSec img {
+      width: 40%;
+    }
+
+    .purple {
+      color: blueviolet;
+    }
+
+    .secondSection {
+      max-width: 100%;
+      margin: 20px auto;
+      padding-left: 20px;
+    }
+
+    .secondSection h4 {
+      font-size: 1.6rem;
+    }
+
+    .textgrey {
+      color: gray;
+    }
+
+    .BOX {
+      background: rgb(32, 230, 220) width: 80vw;
+      margin: 58px 0;
+      display: flex;
+      flex-wrap: wrap;
+      /* Ensure vertical elements wrap */
+    }
+
+    .vertical {
+      width: 25%;
+      /* Adjust width for four columns */
+      padding: 0 10px;
+      /* Adjust spacing */
+    }
+
+    .vertical img {
+      position: relative;
+      width: 99px;
+      height: auto;
+      top: -31px;
+      left: -8px;
+    }
+
+    .vertical-title {
+      font-size: 0.9rem;
+      /* Adjust font size */
+      margin-top: 10px;
+      /* Adjust spacing */
+    }
+
+    .vertical-desc {
+      font-size: 0.8rem;
+      /* Adjust font size */
+      color: gray;
+      /* Adjust color */
+    }
+
+    footer {
+      background-color: rgb(226, 194, 10);
+      height: 233px;
+    }
+
+    .footer {
+      display: flex;
+      padding: 23px 122px;
+      justify-content: space-evenly;
+    }
+    .footer ul{
+      list-style: none;
+    }
+    footer .footer-rights{
+      text-align: center;
+      background-color: rgb(202, 128, 221);
+      color: rgb(119, 0, 255);
+      padding: 12px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left title">Chandana Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstSection">
+      <div class="leftSection"><br>
+        I am an <span class="purple">enthusiastic</span> and <span class="purple">self-motivating</span> woman always
+        dedicated to doing tasks.
+        <span id="element"></span>
+        </br>
+        <button class="btn">Download Resume</button>
+      </div>
+      <div class="rightSec">
+        <img src="C:\Users\rchan\OneDrive\Desktop\Portfolio\p.jpg" alt="Portfolio Image">
+      </div>
+    </section>
+    <section class="secondSection">
+      <span class="textgrey">What I have done so far</span>
+      <h4>Work experience</h4>
+      <div class="BOX">
+        <div class="vertical">
+          <img class="image-top" src="C:\Users\rchan\OneDrive\Desktop\Portfolio\CPROG.jpg">
+          <div class="vertical-title">
+            C Program developer
+          </div>
+          <div class="vertical-desc">
+            First year of BE
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="C:\Users\rchan\OneDrive\Desktop\Portfolio\ROBO.jpeg">
+          <div class="vertical-title">
+            Robotics developer
+          </div>
+          <div class="vertical-desc">
+            Second year of BE
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="C:\Users\rchan\OneDrive\Desktop\Portfolio\ML.jpeg">
+          <div class="vertical-title">
+            ML Real time application builder
+          </div>
+          <div class="vertical-desc">
+            Third year of BE
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="o.jpeg">
+          <div class="vertical-title">
+            HTML learner developer
+          </div>
+          <div class="vertical-desc">
+            Fourth year of BE
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="first">
+        <h3>chandana's Developer Portfolio</h3>
+      </div>
+      <div class="second">
+        <ul>
+          <li> <a href="https://github.com/7975585234">Github</a></li>
+          <li><a
+              href="https://www.linkedin.com/in/chandana-rajendra-4553b51ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin</a>
+          </li>
+      <li>Home</li> 
+      <li>Services</li>
+      <li>Contact</li>
+    </div>
+    <div class="Third">
+      <ul>
+        <li> <a href="https://github.com/7975585234">Github</a></li>
+        <li><a
+            href="https://www.linkedin.com/in/chandana-rajendra-4553b51ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin</a>
+        </li>
+    <li>Home</li> 
+    <li>Services</li>
+    <li>Contact</li>
+    </ul>
+  </div>
+ </div>
+<div class="footer-rights">
+  www.chandana@gmail.com
+</div>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i> I am also passionate about web developer and.', 'UI/UX Designer.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
